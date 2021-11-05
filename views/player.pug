@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  h1= title
+  div(class="container-fluid")
+    div(class="row")
+      -
+        let stuff = [
+          {
+            "player_name":"Lebron James",
+            "player_team":"Lakers",
+            "player_number":6
+          },
+          {
+            "player_name":"Luka Doncic",
+            "player_team":"Mavericks",
+            "player_number":77
+          },
+          {
+            "player_name":"Zion Williamson",
+            "player_team":"Pelicans",
+            "player_number":1
+          },
+        ]
+      each ply, index in stuff
+        div(class="col-sm-2") #{ply.player_name}
+        div(class="col-sm-2") #{ply.player_team}
+        div(class="col-sm-2") #{ply.player_number}
+
+
+
