@@ -1,7 +1,5 @@
-# fwb93jackson
+# fd93jackson
 
-Assignment 10
+Assignment 11
 
-Link to Heroku Server: https://fwb93jackson.herokuapp.com/
-
-My class name is Player and my attributes are player_name(string), player_team(string), player_number(int)
+Link to Heroku Server: https://db93jackson.herokuapp.com/
