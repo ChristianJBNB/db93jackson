@@ -11,5 +11,8 @@ router.get('/detail', player_controllers.player_view_one_Page);
 /* GET create costume page */ 
 router.get('/create', player_controllers.player_create_Page); 
 
+/* GET create update page */ 
+router.get('/update', player_controllers.player_update_Page); 
+
 module.exports = router;
 
