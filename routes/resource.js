@@ -26,8 +26,5 @@ router.get('/player/:id', player_controllers.player_detail);
  
 // GET request for list of all Player items. 
 router.get('/player', player_controllers.player_list); 
-
-/* GET detail player page */ 
-router.get('/detail', player_controllers.player_view_one_Page);
  
 module.exports = router; 
